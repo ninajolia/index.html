@@ -1,0 +1,64 @@
+.h2{color: rgb(80, 109, 206); border: 1px solid rgb(245, 107, 215); margin: 30px 10px }
+h3{color: rgb(255, 255, 255); font-size: x-large; border: 5px 
+    solid rgb(247, 146, 225); border-radius: 5px; }
+
+#logo{width: 150px}
+
+header, footer{background-color: rgb(167, 187, 255);
+     margin: 20px 0px 20px 0px;}
+#hiii{color: aliceblue; font-weight: bold;}
+
+
+
+body{color: rgb(131, 22, 219);}
+#logo{border: 3px solid palevioletred; margin: 10px;
+border-radius: 10px; justify-content: left;}
+
+
+
+body{margin: 20px 20px 20px 20px;}
+#hiii{font-size: x-large;}
+#wiki{font-weight: bold; color: rgb(236, 92, 147); font-size: x-large;}
+#wiki{margin: 0px 20px 20px 0px }
+header{padding: 20px 10px 30px 10px;}
+.li{color: rgb(255, 255, 255);}
+.hi{color: rgb(255, 255, 255); font-size: x-large;}
+
+
+
+/* ლოგოს და მენიუს გვერდიგვერდ დასმა */
+
+/*#logo, nav {
+   display: inline-block;
+   vertical-align: middle;
+} */
+
+/*ლიების გვერდიგვერდ დასმა*/
+/*nav li  {display: inline-block; margin: 20px 20px 20px 20px;}*/
+
+ header, nav  {display: flex; }
+ nav {gap: 15px;}
+
+ #flex-container
+ {background-color: rgb(255, 255, 255);
+     border: 2px solid rgb(255, 255, 255);
+     border-radius: 6px;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     /*padding: 30px;*/
+  justify-content: space-between;
+ 
+ }
+#flex-container div
+{background-color: rgb(221, 204, 253);
+
+border: 1px solid rgb(255, 255, 255);
+border-radius: 6px;
+width: 200px;
+padding: 50px 0px;
+text-align: center;
+font-size: 60px;
+
+}
+
